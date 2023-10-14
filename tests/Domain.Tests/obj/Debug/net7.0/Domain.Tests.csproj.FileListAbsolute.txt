@@ -1,0 +1,6 @@
+/Users/frederikhansen/Hogent/Csharp/ch-3-exercise-3/tests/Domain.Tests/bin/Debug/net7.0/CoverletSourceRootsMapping
+/Users/frederikhansen/Hogent/Csharp/ch-3-exercise-3/tests/Domain.Tests/obj/Debug/net7.0/Domain.Tests.csproj.AssemblyReference.cache
+/Users/frederikhansen/Hogent/Csharp/ch-3-exercise-3/tests/Domain.Tests/obj/Debug/net7.0/Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/frederikhansen/Hogent/Csharp/ch-3-exercise-3/tests/Domain.Tests/obj/Debug/net7.0/Domain.Tests.AssemblyInfoInputs.cache
+/Users/frederikhansen/Hogent/Csharp/ch-3-exercise-3/tests/Domain.Tests/obj/Debug/net7.0/Domain.Tests.AssemblyInfo.cs
+/Users/frederikhansen/Hogent/Csharp/ch-3-exercise-3/tests/Domain.Tests/obj/Debug/net7.0/Domain.Tests.csproj.CoreCompileInputs.cache
