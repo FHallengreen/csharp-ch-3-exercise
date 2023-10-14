@@ -9,7 +9,7 @@ bin/
 obj/
 tests/Domain.Tests/bin/
 tests/Domain.Tests/obj/
-
+.vs
 
 # User-specific files
 *.rsuser
