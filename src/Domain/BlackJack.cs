@@ -39,7 +39,7 @@ public class BlackJack
         throw new NotImplementedException();
     }
 
-    public void GivePlayerAnotherHand()
+    public void GivePlayerAnotherCard()
     {
         throw new NotImplementedException();
     }
