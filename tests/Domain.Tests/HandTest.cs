@@ -68,7 +68,7 @@ namespace Domain.Tests
             _hand.AddCard(new BlackJackCard(Suit.Clubs, FaceValue.Ace));
             _hand.TurnAllCardsFaceUp();
 
-            Assert.Equal(18, _hand.value);
+            Assert.Equal(18, _hand.Value);
         }
 
         [Fact(Skip = "Not yet implemented")]
@@ -83,7 +83,7 @@ namespace Domain.Tests
             _hand.AddCard(new BlackJackCard(Suit.Clubs, FaceValue.Two));
             _hand.TurnAllCardsFaceUp();
             _hand.AddCard(new BlackJackCard(Suit.Clubs, FaceValue.Ace));
-            Assert.Equal(4, _hand.value);
+            Assert.Equal(4, _hand.Value);
         }
     }
 }

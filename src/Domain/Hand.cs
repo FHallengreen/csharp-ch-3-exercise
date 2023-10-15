@@ -7,7 +7,7 @@ public class Hand
 
         public IEnumerable<BlackJackCard> Cards => _cards;
         public int NrOfCards => _cards.Count;
-        public int value => CalculateValue();
+        public int Value => CalculateValue();
 
         public Hand()
         {
@@ -39,7 +39,7 @@ public class Hand
         foreach (var card in Cards)
         {
             sum += card.Value;
-            if (card.FaceValue == FaceValue.Ace)
+            if (card.FaceUp && card.FaceValue == FaceValue.Ace)
             {
                 hasAce = true;
             }

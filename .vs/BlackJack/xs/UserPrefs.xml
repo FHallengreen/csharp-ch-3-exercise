@@ -1,28 +1,26 @@
-﻿<Properties StartupConfiguration="{DB6834A0-990C-475A-84E0-1BD66FF87807}|Default">
-  <MonoDevelop.Ide.ItemProperties.src.App PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/frederikhansen/Hogent/Csharp/ch-3-exercise-3/src/Domain/BlackJackCard.cs" relfile="src/Domain/BlackJackCard.cs" line="16" column="9" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{DB6834A0-990C-475A-84E0-1BD66FF87807}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Domain/Hand.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tests/Domain.Tests/HandTest.cs">
     <Files>
-      <File FileName="src/Domain/Card.cs" />
-      <File FileName="src/Domain/BlackJackCard.cs" Line="18" Column="1" />
-      <File FileName="src/Domain/Deck.cs" />
-      <File FileName="src/Domain/Hand.cs" Line="21" Column="28" />
+      <File FileName="src/Domain/Card.cs" Line="1" Column="1" />
+      <File FileName="src/Domain/Deck.cs" Line="1" Column="1" />
+      <File FileName="src/Domain/BlackJack.cs" Line="31" Column="1" />
+      <File FileName="tests/Domain.Tests/BlackJackTest.cs" Line="111" Column="1" />
+      <File FileName="tests/Domain.Tests/HandTest.cs" Line="81" Column="1" />
+      <File FileName="src/Domain/BlackJackCard.cs" Line="19" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="BlackJack" expanded="True">
+          <Node name="BlackJack">
             <Node name="src" expanded="True">
               <Node name="App" expanded="True" />
-              <Node name="Domain" expanded="True">
-                <Node name="Hand.cs" selected="True" />
+              <Node name="Domain" expanded="True" />
+            </Node>
+            <Node name="tests">
+              <Node name="Domain.Tests">
+                <Node name="DeckStubs" expanded="True" />
+                <Node name="HandTest.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -30,9 +28,23 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="BlackJack" expanded="True" selected="True" />
+          <Node name="BlackJack">
+            <Node name="tests">
+              <Node name="Domain.Tests">
+                <Node name="Domain.Tests">
+                  <Node name="CardTest">
+                    <Node name="NewCardIsCreatedCorrectly - bbf3ca1f-d77c-a2a8-556e-aa4fde3e5d11" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.App PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

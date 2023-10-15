@@ -14,6 +14,7 @@ public class Deck
         foreach (Suit suit in Enum.GetValues(typeof(Suit)))
             foreach (FaceValue faceValue in Enum.GetValues(typeof(FaceValue)))
                 _cards.Add(new BlackJackCard(suit, faceValue));
+
         Shuffle();
     }
 
@@ -21,12 +22,12 @@ public class Deck
     {
         if (_cards.Count == 0)
         {
-            throw new InvalidOperationException("No cards in deck to draw from");
+            throw new InvalidOperationException("Cannot draw card from empty deck");
         }
         else
         {
             var card = _cards[0];
-            _cards.Remove(card);
+            _cards.RemoveAt(0);
             return card;
         };
     }
